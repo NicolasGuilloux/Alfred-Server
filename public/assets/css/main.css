@@ -1,0 +1,95 @@
+/**
+ * Alfred, the sustainable butler
+ *
+ * Author: Nicolas Guilloux
+ * Website: https://nicolasguilloux.eu/
+ *
+ * mainColor:   #13a2bd
+ * secondColor: #1e90a8     rgba(7,34,40,1)
+ * thirdColor:  #0d3841
+ */
+
+/* Fiche CSS distantes */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,600');
+
+/* Global */
+    body {
+        margin-top: 3.5rem;     /* Navbar height */
+        /* font-family: 'Raleway', sans-serif; */
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    hr {
+        width: 60%;
+        min-width: 20em;
+    }
+
+    code.pre {
+        text-align: left;
+        white-space: pre;
+
+        display: block;
+        margin: auto;
+        padding: 1em 2em 1em 1em;
+
+        max-height: 20em;
+        overflow-y: auto;
+
+        border: 1px solid rgba(0,0,0,.0625);
+    }
+
+/* Navbar */
+    nav {
+        color: white;
+        font-weight: 800;
+
+        background-color: #13a2bd;
+    }
+
+    nav a {
+        color: white;
+    }
+
+    nav img {
+        height: 1.5em;
+    }
+
+/* Date picker */
+    .datepicker {
+        background-color: white;
+        border: 1px solid rgba(0,0,0,.0625);
+        cursor: pointer;
+    }
+
+/* INDEX: Presentation */
+    #presentation {
+        font-size: 1.2em;
+    }
+
+    #presentation h3 {
+        color: grey;
+    }
+
+    #presentation img {
+        width: 100%;
+        max-width: 80vw;
+    }
+
+/* MAP: svg */
+    #infobox {
+        position: fixed;
+        display: none;
+
+        padding: 0.5em;
+
+        background-color: #1e90a8;
+        border: 1px solid black;
+
+        color: white;
+        font-weight: 800;
+    }
